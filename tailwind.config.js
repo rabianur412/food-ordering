@@ -11,7 +11,11 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primary:"#00bcd4"
+        primary:"#ffbe33",
+        seconday:"222831",
+      },
+      fontFamily:{
+        dancing:["Dancing Script", "cursive"],
       }
     },
   },
