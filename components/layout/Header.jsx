@@ -1,8 +1,8 @@
 import { useState } from "react"
 import {FaUserAlt,FaSearch,FaShoppingCart} from "react-icons/fa"
 import Logo from "../ui/Logo"
-import OutsideClickHandler from "react-outside-click-handler"
-import Title from "../ui/Title"
+import Search from "../ui/Search"
+
 
 const Header = () => {
   const [isSearchModal, setIsSearchModal] = useState(false)
@@ -42,12 +42,7 @@ const Header = () => {
         </div>
       </div>
       {isSearchModal && (
-        <OutsideClickHandler onOutsideClick={()=>setIsSearchModal(false)}>
-         <div >
-          <Title addClass="text-9xl">Title</Title>
-
-         </div>
-      </OutsideClickHandler>
+       <Search setIsSearchModal={setIsSearchModal}/>
       )}
     </div>
   )
