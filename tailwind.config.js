@@ -26,8 +26,10 @@ module.exports = {
         underwhite:"#f1f2f3"
       },
       fontFamily:{
+        dosis:["Dosis","sans-serif"],
         dancing:["Dancing Script", "cursive"],
-        sans:["Open Sans","sans-serif"]
+        open:["Open Sans" , "sans-serif"],
+        poppins:["Poppins","sans-serif"]
       }
     },
   },
