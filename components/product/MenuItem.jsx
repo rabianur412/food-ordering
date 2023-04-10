@@ -17,7 +17,7 @@ const MenuItem = () => {
           <p className="text-[15px]">İçinde soğan, mısır, havuş, sarımsak, zeytin, peynir bulunduran pizzamız lezzetiyle baş döndürüyor.</p>
         
           <div className="flex justify-between items-center mt-4">
-          <span>20₺</span>
+          <span>117₺</span>
            <button className='btn-primary w-10 h-10 rounded-full !p-0 grid place-content-center '><FaShoppingCart/></button>
            </div>
         </div>
