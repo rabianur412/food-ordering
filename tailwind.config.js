@@ -23,7 +23,8 @@ module.exports = {
       colors:{
         primary:"#ffbe33",
         secondary:"#222831",
-        underwhite:"#f1f2f3"
+        underwhite:"#f1f2f3",
+        danger:"#ff0000"
       },
       fontFamily:{
         dosis:["Dosis","sans-serif"],
