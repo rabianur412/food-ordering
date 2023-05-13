@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 
+
 const CustomerItem = ({imgSrc,name,comment,explanation}) => {
+  
   return (
     <div className='mt-10'>
       <div className="p-5 bg-secondary text-white rounded-[5px] font-sans">
