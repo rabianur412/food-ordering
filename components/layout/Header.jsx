@@ -31,10 +31,10 @@ const Header = () => {
               <Link href="/menu">Menü</Link>
             </li>
             <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
-              <Link href="/">Hakkında</Link>
+              <Link href="/about">Hakkında</Link>
             </li>
             <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
-              <Link href="/">Rezervasyon</Link>
+              <Link href="/reservation">Rezervasyon</Link>
             </li>
           </ul>
           {isMenuModal&&(
