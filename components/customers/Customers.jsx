@@ -42,7 +42,7 @@ const Customers = () => {
     ]
   };
   return (
-    <div className='container mx-auto my-10'>
+    <div className='container mx-auto my-20'>
       <Title addClass=" text-[40px] text-center ">Müşteri Yorumları</Title>
         <Slider {...settings}>
         <div className='w-1/2 px-5'>
@@ -53,7 +53,8 @@ const Customers = () => {
         </div>
         <div className='w-1/2 px-5'>
         <CustomerItem imgSrc="/images/musteri3.jpg" name="Gökhan Öz" comment="Paramı helal etmiyorum. Buz gibi yemek. Rezil bir paketleme. Plastik gibi patatesler. Parasını ve damak tadını düşünenler bu restorandan sipariş vermesin" explanation="BERBATSINIZ"/>
-        </div><div className='w-1/2 px-5'>
+        </div>
+        <div className='w-1/2 px-5'>
         <CustomerItem imgSrc="/images/musteri4.jpg" name="Ali Burak Işık" comment="Şubenin çok katlı olması ve personellerinin ilgili olması gayet başarılı durumda. Ancak personeller tuvaletleri ne kadar silerse silsin tuvaletlerde ki aparatlar çok çok eski ve kirli." explanation="HİJYEN YOK"/>
         </div>
         </Slider>

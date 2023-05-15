@@ -33,7 +33,7 @@ const Header = () => {
               <a href="">Hakkında</a>
             </li>
             <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
-              <a href="">Book Table</a>
+              <a href="">Rezervasyon</a>
             </li>
           </ul>
           {isMenuModal&&(
