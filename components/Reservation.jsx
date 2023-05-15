@@ -71,7 +71,7 @@ const Reservation = () => {
         },
     ]
   return (
-    <div className="container mx-auto py-12">
+    <div className="container mx-auto py-8">
      <Title addClass="text-[40px] mb-10">Masa Rezervasyonu</Title>
        <div className="flex justify-between flex-wrap-reverse gap-10">
         <form className="lg:flex-1 w-full" onSubmit={handleSubmit}>
