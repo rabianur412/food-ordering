@@ -5,6 +5,7 @@ import{AiFillCloseCircle} from "react-icons/ai"
 import Logo from "../ui/Logo"
 import Search from "../ui/Search"
 import { useRouter } from "next/router"
+import Link from "next/link"
 
 
 const Header = () => {
@@ -24,16 +25,16 @@ const Header = () => {
          ${isMenuModal === true && "!grid place-content-center" }`}>
           <ul className="flex gap-x-2 sm:flex-row flex-col items-center ">
             <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
-              <a href="">Ana Sayfa</a>
+              <Link href="/">Ana Sayfa</Link>
             </li>
             <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
-              <a href="">Menü</a>
+              <Link href="/menu">Menü</Link>
             </li>
             <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
-              <a href="">Hakkında</a>
+              <Link href="/">Hakkında</Link>
             </li>
             <li className="px-[5px] py-[12px] uppercase hover:text-primary cursor-pointer">
-              <a href="">Rezervasyon</a>
+              <Link href="/">Rezervasyon</Link>
             </li>
           </ul>
           {isMenuModal&&(
